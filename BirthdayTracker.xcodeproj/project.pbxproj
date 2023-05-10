@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090096082A058D9C007AECD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090096072A058D9C007AECD2 /* AppDelegate.swift */; };
+		0900960A2A058D9C007AECD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090096092A058D9C007AECD2 /* SceneDelegate.swift */; };
+		0900960C2A058D9C007AECD2 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900960B2A058D9C007AECD2 /* AddBirthdayViewController.swift */; };
+		0900960F2A058D9C007AECD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0900960D2A058D9C007AECD2 /* Main.storyboard */; };
+		090096122A058D9C007AECD2 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 090096102A058D9C007AECD2 /* BirthdayTracker.xcdatamodeld */; };
+		090096142A058D9E007AECD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090096132A058D9E007AECD2 /* Assets.xcassets */; };
+		090096172A058D9E007AECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090096152A058D9E007AECD2 /* LaunchScreen.storyboard */; };
+		0992FB152A0790CC00A21E84 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0992FB142A0790CC00A21E84 /* BirthdaysTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090096042A058D9C007AECD2 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090096072A058D9C007AECD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090096092A058D9C007AECD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0900960B2A058D9C007AECD2 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
+		0900960E2A058D9C007AECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090096112A058D9C007AECD2 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
+		090096132A058D9E007AECD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090096162A058D9E007AECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090096182A058D9E007AECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0992FB142A0790CC00A21E84 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090096012A058D9C007AECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090095FB2A058D9C007AECD2 = {
+			isa = PBXGroup;
+			children = (
+				090096062A058D9C007AECD2 /* BirthdayTracker */,
+				090096052A058D9C007AECD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090096052A058D9C007AECD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090096042A058D9C007AECD2 /* BirthdayTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090096062A058D9C007AECD2 /* BirthdayTracker */ = {
+			isa = PBXGroup;
+			children = (
+				090096072A058D9C007AECD2 /* AppDelegate.swift */,
+				090096092A058D9C007AECD2 /* SceneDelegate.swift */,
+				0900960B2A058D9C007AECD2 /* AddBirthdayViewController.swift */,
+				0900960D2A058D9C007AECD2 /* Main.storyboard */,
+				090096132A058D9E007AECD2 /* Assets.xcassets */,
+				090096152A058D9E007AECD2 /* LaunchScreen.storyboard */,
+				090096182A058D9E007AECD2 /* Info.plist */,
+				090096102A058D9C007AECD2 /* BirthdayTracker.xcdatamodeld */,
+				0992FB142A0790CC00A21E84 /* BirthdaysTableViewController.swift */,
+			);
+			path = BirthdayTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090096032A058D9C007AECD2 /* BirthdayTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0900961B2A058D9E007AECD2 /* Build configuration list for PBXNativeTarget "BirthdayTracker" */;
+			buildPhases = (
+				090096002A058D9C007AECD2 /* Sources */,
+				090096012A058D9C007AECD2 /* Frameworks */,
+				090096022A058D9C007AECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayTracker;
+			productName = BirthdayTracker;
+			productReference = 090096042A058D9C007AECD2 /* BirthdayTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090095FC2A058D9C007AECD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					090096032A058D9C007AECD2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 090095FF2A058D9C007AECD2 /* Build configuration list for PBXProject "BirthdayTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090095FB2A058D9C007AECD2;
+			productRefGroup = 090096052A058D9C007AECD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090096032A058D9C007AECD2 /* BirthdayTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090096022A058D9C007AECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090096172A058D9E007AECD2 /* LaunchScreen.storyboard in Resources */,
+				090096142A058D9E007AECD2 /* Assets.xcassets in Resources */,
+				0900960F2A058D9C007AECD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090096002A058D9C007AECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0992FB152A0790CC00A21E84 /* BirthdaysTableViewController.swift in Sources */,
+				0900960C2A058D9C007AECD2 /* AddBirthdayViewController.swift in Sources */,
+				090096082A058D9C007AECD2 /* AppDelegate.swift in Sources */,
+				0900960A2A058D9C007AECD2 /* SceneDelegate.swift in Sources */,
+				090096122A058D9C007AECD2 /* BirthdayTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0900960D2A058D9C007AECD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0900960E2A058D9C007AECD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090096152A058D9E007AECD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090096162A058D9E007AECD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090096192A058D9E007AECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0900961A2A058D9E007AECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0900961C2A058D9E007AECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSJX298Z8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Birthdays;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.world.BirthdayTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0900961D2A058D9E007AECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSJX298Z8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Birthdays;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.world.BirthdayTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090095FF2A058D9C007AECD2 /* Build configuration list for PBXProject "BirthdayTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090096192A058D9E007AECD2 /* Debug */,
+				0900961A2A058D9E007AECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0900961B2A058D9E007AECD2 /* Build configuration list for PBXNativeTarget "BirthdayTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0900961C2A058D9E007AECD2 /* Debug */,
+				0900961D2A058D9E007AECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		090096102A058D9C007AECD2 /* BirthdayTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				090096112A058D9C007AECD2 /* BirthdayTracker.xcdatamodel */,
+			);
+			currentVersion = 090096112A058D9C007AECD2 /* BirthdayTracker.xcdatamodel */;
+			path = BirthdayTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 090095FC2A058D9C007AECD2 /* Project object */;
+}
