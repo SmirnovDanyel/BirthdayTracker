@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  BirthdayTracker
-//  BirthdayTracker2
+//  addNotification
 //
 //  Created by Даниил Смирнов on 05.05.2023.
 //
